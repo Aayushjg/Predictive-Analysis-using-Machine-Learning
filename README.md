@@ -1,16 +1,5 @@
 # Predictive-Analysis-using-Machine-Learning
 
-COMPANY: CODTECH IT SOLUTIONS
-
-NAME : AAYUSH JANGID
-
-INTERN ID : CT08DG1246
-
-DOMAIN : DATA ANALYSIS
-
-DURATION : 8 WEEKS
-
-MENTOR : NEELA SANTOSH
 
 **For this task, I worked on performing predictive analysis using machine learning techniques on a dataset simulating the historical Titanic passenger records. The objective of this task was to build a classification model that could predict whether a passenger survived the Titanic disaster based on features such as age, gender, class, fare, number of relatives aboard, and port of embarkation. This task not only enhanced my understanding of supervised machine learning workflows but also gave me hands-on experience with essential concepts like data preprocessing, feature encoding, model training, and evaluation.
 To start with, I used a structured dataset named titanic_data.csv, which included passenger attributes such as Pclass, Sex, Age, SibSp, Parch, Fare, Embarked, and the target variable Survived. The target was binary: 1 indicating survival and 0 indicating non-survival. The initial phase involved importing the dataset into a pandas DataFrame and performing exploratory analysis to understand the nature and structure of the data. I then moved on to preprocessing, where I applied label encoding to categorical features such as Sex and Embarked, transforming them into numeric values suitable for machine learning algorithms. Additionally, any irrelevant features (like Name, Ticket, or Cabin) were removed to reduce dimensionality and noise.
